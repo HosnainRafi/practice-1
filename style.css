@@ -1,0 +1,78 @@
+body{
+    font-family: 'Noto Sans JP', sans-serif;
+    margin: 0;
+}
+.header-style{
+    color: rgb(224, 92, 125);
+    font-size: 50px;
+    margin-top: -10px;
+}
+header{
+    display: flex;
+    background-image: url(images/header-bg.png);
+    background-repeat: no-repeat;
+}
+.half-width{
+    width: 50%;
+    margin: 5%;
+}
+.half-width img{
+    width: 80%;
+}
+.half-width a{
+    text-decoration: none;
+    background-image: linear-gradient(tomato,orange);
+    color: white;
+    padding: 10px 20px;
+    font-weight: 600;
+    border-radius: 7px;
+}
+.half-width p{
+    margin-bottom: 50px;
+}
+.biography-area{
+    background-image: url(images/biography-bg.png);
+    background-repeat: no-repeat;
+    display: flex;
+}
+.center-text{
+    text-align: center;
+}
+.h1-size{
+    font-size: 40px;
+}
+.one-third-width img{
+    width: 80%;
+    margin: 3%;
+}
+.work-images{
+    display: flex;
+    margin-bottom: 100px;
+    margin: 7%;
+}
+.latest-work-area{
+    background-image: url(images/latest-work-bg.png);
+    background-repeat: no-repeat;
+}
+.client{
+    padding: 100px 0px;
+    background-image: url(images/footer-bg.png);
+    background-repeat: no-repeat;
+
+}
+.pad-bottom{
+    padding-bottom: 50px;
+}
+.address{
+    text-align: center;
+    margin: 20px 0 100px 0;
+    background-image: linear-gradient(#7b4397  ,#dc2430);
+    color: white;
+    display: inline-block;
+    padding: 4% 12%;
+    border-radius: 20px;
+    margin: 10%;
+}
+footer p{
+    font-size: 13px;
+}
